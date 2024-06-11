@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CEE3A91-7BD5-645C-B2EE-D5331BF16042" name="PROD_CATEGORY">
+<createdBy>kaing</createdBy>
+<createdTime>2024-04-10 05:29:43 UTC</createdTime>
+<generatorID>410287F0-1994-0BD9-08B8-E2A703334EEB</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pcat_id" id="E59E1E44-AB16-E4DD-F9FE-D497927B0977">
+<createdBy>kaing</createdBy>
+<createdTime>2024-04-10 05:29:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[product category id]]></commentInRDBMS>
+<generatorID>AB627DA0-CD23-61CB-358D-515350463026</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pcat_name" id="EF28AFC4-417E-21B8-699F-73D4D5539533">
+<createdBy>kaing</createdBy>
+<createdTime>2024-04-10 05:29:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[product category name]]></commentInRDBMS>
+<generatorID>974E7E03-5947-8A32-CA58-79A3E0CB9289</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD0C40A3-B867-B80F-DC8D-D1BC677991BB" name="PROD_CATEGORY_PK">
+<createdBy>kaing</createdBy>
+<createdTime>2024-04-10 05:29:43 UTC</createdTime>
+<generatorID>2DFC74EB-9FD0-E29D-26F5-A93DBB42670D</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E59E1E44-AB16-E4DD-F9FE-D497927B0977"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

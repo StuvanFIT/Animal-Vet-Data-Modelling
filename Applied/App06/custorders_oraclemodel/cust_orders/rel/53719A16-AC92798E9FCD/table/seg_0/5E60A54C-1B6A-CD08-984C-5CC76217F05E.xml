@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E60A54C-1B6A-CD08-984C-5CC76217F05E" name="ORDERS">
+<createdBy>kaing</createdBy>
+<createdTime>2024-04-10 05:29:43 UTC</createdTime>
+<generatorID>6C98C97E-6575-7B15-FC02-00E2BA03A6BF</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="order_no" id="509CD02F-5398-637D-C464-79C3130E7C64">
+<createdBy>kaing</createdBy>
+<createdTime>2024-04-10 05:29:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Order Number]]></commentInRDBMS>
+<generatorID>FDA179D4-53CA-505C-A2F2-CB309D36B366</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_no" id="D8BC72FD-DAB6-35C1-40CA-A6CA9B66717B">
+<createdBy>kaing</createdBy>
+<createdTime>2024-04-10 05:29:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customer Number]]></commentInRDBMS>
+<generatorID>F1B4F534-E346-F1B5-0F04-69C0F3F4C2B6</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70F70D74-64FC-6B81-4E27-E8FB1A9E4BCB" referredColumn="D1E0450F-6E0A-6641-6999-F85E99338809"/>
+</associations>
+</Column>
+<Column name="order_date" id="9724B91B-D135-F3B6-C9A2-3D19F3120618">
+<createdBy>kaing</createdBy>
+<createdTime>2024-04-10 05:29:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[order_date]]></commentInRDBMS>
+<generatorID>689A81D4-F499-10F8-3EC1-19C2D0A7405E</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65923BC1-728A-0994-B617-C58A6C743D06" name="ORDER_PK">
+<createdBy>kaing</createdBy>
+<createdTime>2024-04-10 05:29:43 UTC</createdTime>
+<generatorID>DDA2B717-23E4-26F0-449B-8084EFED84AA</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="509CD02F-5398-637D-C464-79C3130E7C64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26BE3104-5BCE-3AB9-A51D-ADB462F9CF37" name="cust_orders_fk">
+<createdBy>kaing</createdBy>
+<createdTime>2024-04-10 05:29:43 UTC</createdTime>
+<generatorID>35297502-6162-FBF4-2D88-024870C432F6</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8BC72FD-DAB6-35C1-40CA-A6CA9B66717B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
